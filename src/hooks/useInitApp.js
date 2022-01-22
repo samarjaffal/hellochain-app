@@ -6,7 +6,6 @@ export const useInitApp = ({getHellos}) => {
 
   useEffect(() => {
     checkIfWalletIsConnected();
-    getHellos()
   }, [])
 
   const checkIfWalletIsConnected = async () => {
@@ -25,6 +24,7 @@ export const useInitApp = ({getHellos}) => {
         const account = accounts[0];
         console.log("Found an authorized account:", account);
         setCurrentAccount(account)
+        getHellos()
       } else {
         console.log("No authorized account found")
       }
