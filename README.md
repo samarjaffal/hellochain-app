@@ -14,4 +14,5 @@ El proyecto permite que un usuario se logre autenticar a través del uso de una 
 tiene acceso a poder dejar un saludo dentro de la página usando la dirección de cartera con la que se autenticó. También puede ver el saludo de otros 
 usuarios.
 
+[*Enlace al repositorio del back**](https://github.com/samarjaffal/hellochain-sol)\
 [**Visita el demo**](https://hellochain-app.samarjaffal.repl.co/)
